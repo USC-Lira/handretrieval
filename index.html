@@ -111,7 +111,7 @@
                 <span class="author-block">
                   <a href="https://www.linkedin.com/in/kevinjameskim">Kevin Kim</a>,</span>
                 <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=Sqo9kfgAAAAJ&hl=en">Harshitha Rajaprakash</a>,</span>
+                  <a href="https://scholar.google.com/citations?user=Sqo9kfgAAAAJ&hl=en">Harshitha Rajaprakash</a>,</span><br>
                 <span class="author-block">
                   <a href="https://jessethomason.com/">Jesse Thomason†</a>,</span>
                 <span class="author-block">
@@ -187,10 +187,8 @@
           <div class="column is-four-fifths">
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
-              We hand the community HAND, a simple and time-efficient method for teaching robots new manipulation tasks through human hand demonstrations.
-              Instead of relying on task-specific robot demonstrations collected via teleoperation, HAND uses easy-to-provide hand demonstrations to retrieve relevant behaviors from task-agnostic robot play data. 
-              Using a visual tracking pipeline, HAND extracts the motion of the human hand from the hand demonstration and retrieves robot sub-trajectories in two stages: first filtering by visual similarity, then retrieving trajectories with similar behaviors to the hand.
-              Fine-tuning a policy on the retrieved data enables <i>real-time learning of tasks</i> in under three minutes, without requiring calibrated cameras or detailed hand pose estimation.
+              We hand the community HAND, a <em>simple</em> and <em>time-efficient</em> method for teaching robots new manipulation tasks through human hand demonstrations.
+              Instead of relying on task-specific robot demonstrations collected via teleoperation, HAND uses <em>easy-to-provide</em> hand demonstrations to retrieve relevant behaviors from task-agnostic robot play data. 
               Experiments in simulation and on real robots also show that HAND outperforms retrieval baselines by over $2 \times$ in task success rates.
             </div>
           </div>
@@ -248,7 +246,7 @@
               <img src="./static/images/real_robot_results.png" alt="real_robot_results" style="width: 50%;">
               <figcaption>
                 <p>
-                  Real-world single task retrieval experiment plotting # successes out of 10 of $\pi_\text{base}$, STRAP, and HAND.
+                  Real-world single task retrieval experiment plotting number of rollout successes out of 10 of $\pi_\text{base}$, Flow, STRAP, and HAND.
                 </p>
               </figcaption>
             </figure>
